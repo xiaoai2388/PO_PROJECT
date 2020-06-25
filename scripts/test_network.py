@@ -2,6 +2,7 @@ import os, sys
 # 表示在当前文件下搜索
 sys.path.append(os.getcwd())
 
+
 from appium import webdriver
 from time import sleep
 # 因为pytest运行方式，找不到自己创建模块，需要使用sys,os
