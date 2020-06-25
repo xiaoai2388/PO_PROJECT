@@ -20,6 +20,7 @@ class TestNetwoek:
         self.notwork_page.click_elect()
         # 点击2G
         self.notwork_page.click_2G()
+        
     def test_network_3G(self):
         # 点击移动网络
         self.notwork_page.click_network()
@@ -27,4 +28,11 @@ class TestNetwoek:
         self.notwork_page.click_elect()
         # 点击3G
         self.notwork_page.click_3G()
-
+        
+ def test_network_4G(self):
+        # 点击移动网络
+        self.notwork_page.click_network()
+        # 点击网络类型选择
+        self.notwork_page.click_elect()
+        # 点击3G
+        self.notwork_page.click_3G()
